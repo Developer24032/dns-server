@@ -1,3 +1,6 @@
 from unittest import main
+from dotenv import load_dotenv
 
-main()
+load_dotenv()
+
+main(verbosity=1)
